@@ -6,6 +6,7 @@ import 'swiper/css/effect-fade'
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import Image from 'next/image';
+// import Total from  ''
 
 
 const Banner = () => {
@@ -31,7 +32,7 @@ const Banner = () => {
         <div className="w-[80%] h-[1px] bg-white mb-8"></div>
         <div className="flex items-center space-x-2">
           <p className='text-white'>En partenariat avec </p>
-          <Image width={150} height={90} src="./total.png" alt="total"className='w-20'/>
+          <Image width={90} height={50} src="/total.png" alt="total"className='w-20'/>
         </div>
           </div>
 
