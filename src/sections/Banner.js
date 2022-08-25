@@ -31,7 +31,7 @@ const Banner = () => {
         <div className="w-[80%] h-[1px] bg-white mb-8"></div>
         <div className="flex items-center space-x-2">
           <p className='text-white'>En partenariat avec </p>
-          <Image width={150} height={90} src="./total.png" className='w-20'/>
+          <Image width={150} height={90} src="./total.png" alt="total"className='w-20'/>
         </div>
           </div>
 

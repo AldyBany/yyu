@@ -16,7 +16,7 @@ const Emergency = () => {
     </div>
     <div className="px-4 py-6 h-80 -order-1 md:order-1 bg-orange relative" >
       <div className="">
-      <Image  width={300} height={250} src="./total4.png" className='w-96'/>
+      <Image  width={300} height={250} src="./total4.png" alt="total" className='w-96'/>
       </div>
 
       
