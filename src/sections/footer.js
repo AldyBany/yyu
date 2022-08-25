@@ -2,7 +2,7 @@ import Horaire from 'components/Horaire'
 import React from 'react'
 import Caller from '../components/caller'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className={styles.wrapper} id={4}>
       <div className={styles.container}>
@@ -120,7 +120,7 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
 
 const heures =[
   {id:1,jour:'Lundi',heure:'08h00 - 17h00'},

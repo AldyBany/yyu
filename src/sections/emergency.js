@@ -1,6 +1,7 @@
+import Image from 'next/image'
 import React from 'react'
 
-const emergency = () => {
+const Emergency = () => {
   return (
     <section className="max-w-xl sm:max-w-2xl lg:max-w-4xl sm:mx-8 sm:mx-auto md:h-80 rounded-xl bg-blue-900 grid sm:grid-cols-2 overflow-hidden mt-40" id="contact" name="#contacts">
     <div className="h-full bg-orange p-7">
@@ -15,7 +16,7 @@ const emergency = () => {
     </div>
     <div className="px-4 py-6 h-80 -order-1 md:order-1 bg-orange relative" >
       <div className="">
-      <img src="./total4.png" className='w-96'/>
+      <Image  width={300} height={250} src="./total4.png" className='w-96'/>
       </div>
 
       
@@ -24,7 +25,7 @@ const emergency = () => {
   )
 }
 
-export default emergency
+export default Emergency
 
 const styles ={
 

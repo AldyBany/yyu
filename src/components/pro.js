@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence,AnimateSharedLayout  } from "framer-motion";
 import Content from  './frame'
 
-const pro = () => {
+const Pro = () => {
     const [isOpen, setIsOpen] = useState(false);
 	const itemsList = [
 		{
@@ -36,4 +36,4 @@ const toggleOpen = () => setIsOpen(!isOpen);
   )
 }
 
-export default pro
+export default Pro

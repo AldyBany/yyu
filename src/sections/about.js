@@ -2,7 +2,7 @@ import React from 'react'
 import {retraite,voiture,voyage,driving,lavage} from '../assets/assurances/data'
 import {Data4} from '../data/mechanic'
 
-const about = () => {
+const About = () => {
 
     
   return (
@@ -60,4 +60,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

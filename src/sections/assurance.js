@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const assurance = () => {
+const Assurance = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -34,7 +34,7 @@ const assurance = () => {
   };
 
   return (
-    <div className={`${styles.wrapper} `} >
+    <div className={styles.wrapper} >
         
         <div className={styles.container}>
             <h2 className={styles.subtitle}>Choisir Royal Assurances, c'est choisir</h2>
@@ -71,7 +71,7 @@ const assurance = () => {
   )
 }
 
-export default assurance
+export default Assurance
 
 
             

@@ -4,7 +4,7 @@ import Caller from './caller'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Sticky from 'react-stickynode'
 
-const n = () => {
+const N = () => {
     const[cliked,setCliked] = useState(false)
     const responsiveNav = `absolute left-0 top-16 flex flex-col items-center justify-center right-0 bg-orange z-10 transition-ease duration-1000 opacity-100 h-96 shadow-md ${cliked?'left-[-400px] opacity-0':'left-0 opacity-100'} rounded-xl lg:static lg:top-0 lg:z-0 lg:bg-transparent lg:opacity-100 lg:shadow-none lg:flex-row`
    
@@ -66,7 +66,7 @@ const n = () => {
   
 }
 
-export default n
+export default N
 const navItems=[
     {id:1,title:'Acceuil'},
     {id:2,title:'Nos Services', subtitle:true, sub:'TopGear'},
