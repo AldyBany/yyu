@@ -1,6 +1,6 @@
 
 import React,{useState} from 'react'
-const proof = () => { 
+const Proof = () => { 
   const[Index, setIndex] = useState(false)
 
   const handleSetIndex = (id)=>{
@@ -39,7 +39,7 @@ const proof = () => {
   )
 }
 
-export default proof
+export default Proof
 
 const SkillsData = [
     {id: 1, title:'POURQUOI ROYAL SERVICES?',answer:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt labore, voluptate aperiam ipsam ut illo ducimus.'},
