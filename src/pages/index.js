@@ -12,6 +12,7 @@ import About from 'sections/about'
 
 
 import React, {useState} from 'react'
+import Accordion from 'components/Accordion'
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Navbar/>
       <Banner/>
       <About/>
+      
      
      
       

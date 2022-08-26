@@ -48,7 +48,7 @@ const About = () => {
         </div>
         <div>
             <div>
-                <h2 className="text-4xl text-blue font-semibold mb-3">Let us take care of your car</h2>
+                <h2 className="text-4xl text-blue font-bold mb-3">Let us take care of your car</h2>
                 <h4 className="font-semibold text-orange mb-5">Qui sommes nous?</h4>
                 <p className="text-gray mb-2">Royal Services est un garage moderne offrant un entretien, des réparations de véhicules de haute qualité pour toutes les marques et tous les modèles.</p>
                 <p className="text-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quidem delectus alias vero iusto, quibusdam deserunt ea repudiandae odio eligendi sit, commodi ducimus, soluta sint!</p>

@@ -59,7 +59,7 @@ const styles = {
   navbar:'h-[80%] w-14 bg-orange fixed left-0 top-24 z-100',
   swiper:'h-48 w-[40%] bg-blue absolute bottom-0 right-0 z-10',
   content:'max-w-screen-2xl absolute left-0 top-0 bottom-0 z-10 pt-28 md:pt-[40%] lg:pt-24 xl:pt-36 px-6 bg-gradient-to-r from-orange',
-  title:'text-5xl md:text-8xl lg:text-6xl font-bold text-blue justify-self-center mb-8 max-w-3xl',
+  title:'text-5xl md:text-8xl lg:text-7xl font-bold text-blue justify-self-center mb-8 max-w-3xl',
   description:"md:text-xl max-w-3xl text-white font-semibold mb-12"
 }
   
