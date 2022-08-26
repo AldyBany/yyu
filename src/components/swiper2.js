@@ -8,7 +8,8 @@ import 'swiper/css';
 
 export default  function Swipers() {
   return (
-    <div className="lg:h-[550px] lg:max-w-screen-lg xl:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm xs:w-[280px] mx-auto px-6 bg-blue rounded-xl pt-16 pb-5 relative">
+    <div className="lg:h-[650px] lg:max-w-screen-lg xl:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm xs:w-[280px] mx-auto px-6 bg-blue rounded-xl pt-16 pb-5 relative">
+      <h2 className='text-center text-3xl semibold text-white mb-10'>Royal Assurance</h2>
     <Swiper
       spaceBetween={50}
       slidesPerView={3}
